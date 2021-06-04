@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 6px 6px 8px #3366cc;
+}
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+html {
+    border: 29px groove #336296;
+}
+
+input{text-align:center;}
+
+p{
+ 
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+
+}
+.Quiz{ 
+    border: #8cbbfd 10px ridge;
+    padding: 10px;
+    margin: 10px;
+}
+.results{
+border: #8cbbfd 10px ridge;
+padding: 10px;
+margin: 10px;}
+
+.history{
+border: #8cbbfd 10px ridge;
+padding: 10px;
+margin: 10px;}
+
+.submit:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #008CBA;
+  color: white;  
+}
+
+button{ position: absolute;
+  right: 89px;
+  width: 100px;}
+
+.reload{display:none;
+    position: absolute;
+  right: 89px;
+  width: 100px;
+   background-color: #008CBA;
+  color: white;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.restart:hover{position: absolute;
+  right: 89px;
+  width: 100px;
+   background-color: #008CBA;
+  color: white;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+/* Animation */
+@keyframes typewriter {
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+p {
+  animation: typewriter 7s steps(44, start) 1s 1 normal both,
+      blinkTextCursor 500ms steps(44, start) infinite normal;
+    position: relative;
+    width: 24em;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-0%);   
+}
+
